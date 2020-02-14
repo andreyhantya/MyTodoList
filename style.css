@@ -1,0 +1,49 @@
+.wrap {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 400px;
+    height: 700px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    margin-left: 40px;
+}
+
+.tasks ol {
+    border: 1px solid black;
+}
+
+.tasks ol li {
+    padding: 5px;
+    font-size: 18px;
+}
+
+.done {
+    color: green;
+    text-decoration: line-through;
+}
+
+.done_button {
+    width: 20px;
+    height: 20px;
+    margin-left: 170px;
+    background-image: url(images/done.png);
+    background-position: center;
+    background-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+.delete_button {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    background-image: url(images/delete.png);
+    background-position: center;
+    background-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+}

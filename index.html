@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Список задач</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <h1>ToDo</h1>
+        <input id="tuskInput" type="text" placeholder="Введите задачу...">
+        <button id="addTask" onclick="addTask()">Добавить задачу</button>
+
+            <hr>
+        <div class="tasks">
+            <ol id="todoList">
+                <li class="done">Сделать чай <div class="done_button"></div><div  class="delete_button"></div></li>
+                <li>купить хлеб</li>
+                <li>Сделать тз</li>
+            </ol>
+        </div>
+    </div>
+
+</body>
+</html>
